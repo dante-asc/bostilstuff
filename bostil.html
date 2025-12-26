@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Congo Crisis - Belligerents</title>
+  <style>
+    .belligerents-box {
+      border: 1px solid #aaa;
+      background-color: #f8f9fa;
+      font-family: sans-serif;
+      font-size: 14px;
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .belligerents-title {
+      background-color: #d9edf7;
+      color: #2f2f2f;
+      font-weight: bold;
+      padding: 8px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+.belligerents-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative; /* necessário para a linha central */
+}
+
+.belligerents-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: none; /* tira o fundo sólido */
+  border-left: 1px dotted rgba(0,0,0,0.2); /* pontinhos quase transparentes */
+}
+    .side {
+      width: 48%;
+      background-color: transparent;
+      padding: 4px;
+    }
+
+    .side ul {
+      padding-left: 4px;
+      list-style: none;
+      margin: 0;
+    }
+
+    .side li {
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+    }
+
+    .side img {
+      margin-right: 4px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="belligerents-box">
+    <div class="belligerents-title">Belligerents</div>
+    <div class="belligerents-content">
+      <div class="side">
+        <ul>
+          <li><img src="https://github.com/flagzzzz/4chan-Flag-Fixer/blob/master/flags/official/br.gif?raw=true" width="23" height="15"> Dante</li>
+        </ul>
+        <b>Supported by:</b>
+        <ul>
+          <li><img src="https://github.com/flagzzzz/4chan-Flag-Fixer/blob/master/flags/official/br.gif?raw=true" width="23" height="15"> Shanzx</li>
+        </ul>
+      </div>
+      <div class="side">
+        <ul>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs3X_LpBt2ri-hDMkX255vBxQWzLEiCFjF8e89cl4nvQ&s=10" width="20" height="15"> Bostil</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
